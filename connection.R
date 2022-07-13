@@ -3,7 +3,7 @@ library(odbc)
 library(DBI)
 library(dbplyr)
 con <- dbConnect(odbc(),
-                 Driver = "OracleODBC-21_5",
+                 Driver = "Oracle 21_5 ODBC driver",
                  Trusted_Connection = "True",
                  uid = "villea04",
                  pwd = "qKQvPoSilm21T*qVr")
