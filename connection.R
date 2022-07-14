@@ -10,6 +10,6 @@ library(dbplyr)
 
 
 con <- dbConnect(odbc(), "OAO Cloud DB", timeout = 30)
-#table <- tbl(con, "SUMMARY REPO")
+table <- tbl(con, "SUMMARY_REPO")
 
 # print(odbc::odbcListDrivers())
